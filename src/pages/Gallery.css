@@ -1,0 +1,10 @@
+.título-galería {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 10px 0 30px;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #c360d4;
+  text-shadow: none;
+}

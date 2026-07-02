@@ -1,0 +1,71 @@
+.carta-dia {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(214, 179, 255, 0.25);
+}
+
+.carta-dia h3 {
+  color: #e6c78f;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(195, 96, 212, 0.5);
+}
+
+.btn-carta {
+  padding: 14px 28px;
+  background: linear-gradient(135deg, #c360d4, #ef93ff);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(195, 96, 212, 0.5);
+  transition: 0.3s ease;
+}
+
+.btn-carta:hover {
+  background: linear-gradient(135deg, #ef93ff, #c360d4);
+  box-shadow: 0 0 25px rgba(239, 147, 255, 0.8);
+  transform: translateY(-2px);
+}
+
+.resultado-carta {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+.carta-flip {
+  max-width: 420px;
+  background: rgba(20, 20, 20, 0.8);
+  border: 1px solid rgba(230, 199, 143, 0.4);
+  border-radius: 14px;
+  padding: 25px 30px;
+  box-shadow: 0px 0px 25px #ef93ff;
+  opacity: 0;
+  transform: scale(0.85) rotateY(20deg);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.carta-flip.mostrar {
+  opacity: 1;
+  transform: scale(1) rotateY(0deg);
+}
+
+.carta-flip h3 {
+  color: #d6b3ff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(195, 96, 212, 0.5);
+}
+
+.carta-flip p {
+  font-size: 16px;
+  color: #f5f5f5;
+  margin: 0;
+  text-shadow: none;
+}

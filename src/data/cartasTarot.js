@@ -1,0 +1,21 @@
+// Cartas usadas por el componente <CartaDelDia />.
+export const cartasTarot = [
+  { nombre: "El Loco", significado: "Nuevos comienzos, espontaneidad y la voluntad de dar un salto de fe." },
+  { nombre: "El Mago", significado: "Tenés todas las herramientas para manifestar lo que te propongas." },
+  { nombre: "La Sacerdotisa", significado: "Escuchá tu intuición, hay respuestas que solo vas a encontrar en silencio." },
+  { nombre: "La Emperatriz", significado: "Abundancia, creatividad y conexión con lo que te nutre." },
+  { nombre: "El Emperador", significado: "Estructura, disciplina y control sobre tus circunstancias." },
+  { nombre: "El Enamorado", significado: "Una decisión importante relacionada con vínculos o valores propios." },
+  { nombre: "El Carro", significado: "Avance firme hacia tus metas gracias a la fuerza de voluntad." },
+  { nombre: "La Justicia", significado: "Equilibrio, verdad y consecuencias claras de tus acciones." },
+  { nombre: "El Ermitaño", significado: "Momento de introspección para encontrar tu propia guía interior." },
+  { nombre: "La Rueda de la Fortuna", significado: "Un ciclo está cambiando, dejá que el movimiento te lleve." },
+  { nombre: "La Fuerza", significado: "Coraje y paciencia para atravesar lo que te desafía." },
+  { nombre: "El Colgado", significado: "A veces hay que soltar el control para ver las cosas desde otro ángulo." },
+  { nombre: "La Muerte", significado: "El cierre de una etapa que abre lugar a algo nuevo." },
+  { nombre: "La Templanza", significado: "Armonía y paciencia para encontrar el punto justo entre extremos." },
+  { nombre: "La Estrella", significado: "Esperanza y confianza en que lo mejor está por venir." },
+  { nombre: "La Luna", significado: "Cuidado con las ilusiones, no todo es lo que parece a simple vista." },
+  { nombre: "El Sol", significado: "Alegría, éxito y claridad después de un momento difícil." },
+  { nombre: "El Mundo", significado: "Un ciclo se completa con éxito, es momento de celebrar el logro." },
+];
